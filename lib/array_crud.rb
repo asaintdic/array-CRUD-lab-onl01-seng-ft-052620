@@ -22,10 +22,14 @@ def add_element_to_start_of_array(array, element)
 end
 add_element_to_start_of_array("array", "element")
 
+
 def remove_element_from_end_of_array(array)
   array = ["I", "am", "really", "learning", "arrays!"]
   array.pop
 end
+remove_element_from_end_of_array("array")
+
+
 
 def remove_element_from_start_of_array(array)
   
