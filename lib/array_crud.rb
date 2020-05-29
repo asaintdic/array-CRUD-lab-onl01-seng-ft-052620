@@ -53,4 +53,4 @@ def retrieve_last_element_from_array(array)
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
     array.last
 end
-
+retrieve_last_element_from_array("array")
