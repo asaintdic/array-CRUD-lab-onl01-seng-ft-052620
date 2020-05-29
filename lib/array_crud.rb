@@ -1,24 +1,35 @@
-def create_an_empty_array
-  
+def create_an_empty_array 
+  []
 end
 
 def create_an_array
+  leaders = ["Toussaint", "Malcolm", "Martin", "Shirley"]
   
 end
 
 def add_element_to_end_of_array(array, element)
-  
+    array = ["wow", "I", "am", "really", "learning"]
+    element = "arrays!"   
+       array << "#{element}"
 end
+add_element_to_end_of_array("array", "element")
+
 
 def add_element_to_start_of_array(array, element)
-  
+    array = ["wow", "I", "am", "really", "learning"]
+    element = "arrays!"   
+       array << "#{element}"
+   
 end
 
 def remove_element_from_end_of_array(array)
+   
+  
   
 end
 
 def remove_element_from_start_of_array(array)
+  
   
 end
 
